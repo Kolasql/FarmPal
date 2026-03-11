@@ -1,0 +1,11 @@
+# GitHub
+.github/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Local storage and temporary files
+*.log
+tmp/
+node_modules/

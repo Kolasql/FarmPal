@@ -65,5 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial load
     // Simple delay to ensure sub-scripts are available
-    setTimeout(() => navigateTo('dashboard'), 100);
+    setTimeout(() => {
+        Storage.seedDemoData();
+        navigateTo('dashboard');
+    }, 100);
 });
